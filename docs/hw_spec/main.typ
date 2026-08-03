@@ -66,13 +66,7 @@
 )
 
 // Glossary
-#let entry-list = (
-  (
-    key: "RTL",
-    long: "Register-Transfer Level",
-    description: ""
-  ),
-)
+#import "Glossary.typ": entry-list
 #register-glossary(entry-list)
 
 //Table of contents
